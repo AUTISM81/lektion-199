@@ -1,46 +1,31 @@
  body {
     background-color:mediumaquamarine;
 }
- 
- main {
-     width: 60%;
-     margin: 0 auto;
- }
 
-h1 {
-    display: flex;
-    width: 20%;
+main {
+    max-width: 500px;
+    margin: auto;
+    width: 100%;
+}
 
+.aside {
+    box-sizing: border-box;
+    float: left;
+}
+
+.aside1 {
+    box-sizing: border-box;
+    float: right;
 }
 
 ul {
-    position: center;
-    height: 75px;
-}
-
-audio {
+    max-width: 500px;
     margin: auto;
+    height: 100px;
+
 }
 
-.nav-vid {
-    position: fixed;
+video {
+    display: flex;
+    max-width: 500px;
 }
-
- video {
-     width: 120 0000%;
-     height: 1200000%;
-     display: flex;
- }
-
- nav {
-    width: 150em;
-    color: blue;    
- }
-
- p {
-    color: blue;
- }
-
- p1 {
-     color: red;
- }
