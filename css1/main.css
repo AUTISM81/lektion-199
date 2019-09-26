@@ -1,11 +1,31 @@
  body {
-     background-image: url(https://pics.me.me/thumb_bruh-l-stubbed-my-thumb-does-it-look-swollen-gn-19479031.png)
- }
+    background-color:mediumaquamarine;
+}
  
  main {
-     width: 40%;
+     width: 60%;
      margin: 0 auto;
  }
+
+h1 {
+    display: flex;
+    width: 20%;
+
+}
+
+ul {
+    position: center;
+    height: 75px;
+}
+
+audio {
+    margin: auto;
+}
+
+.nav-vid {
+    position: fixed;
+}
+
  video {
      width: 120 0000%;
      height: 1200000%;
